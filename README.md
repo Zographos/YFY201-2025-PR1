@@ -1,7 +1,6 @@
 # YFY201-2025-PR1
 
-# Shannon Entropy & Information Content in RHF Atomic Densities 
-(Z = 2–10)
+# Shannon Entropy & Information Content in RHF Atomic Densities (Z = 2–10)
 
 ## Introduction
 
