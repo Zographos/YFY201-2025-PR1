@@ -8,7 +8,7 @@ Information-theoretic measures provide a quantitative window into the complexity
 
 In this project we apply these tools to the **second-period atoms** (He through Ne).  We start from high-quality, spin-restricted Hartree–Fock (RHF) radial wavefunctions expanded in Slater-type orbitals, and compute a suite of information-theoretic quantities from the resulting electron densities.
 
-- Shannon entropies \( S_r \) and \( S_k \)  
+- Shannon entropies $S_r$ and \( S_k \)  
 - The variance-dependent entropy bound \( S_{\max} \)  
 - Onicescu’s information measure \( O \)  
 - Fisher information \( I \)  
