@@ -17,10 +17,10 @@ In this project we apply these tools to the **second-period atoms** (He through 
   1. A hydrogenic 1s density fixed by the first ionization potential  
   2. A Thomas–Fermi statistical density
      $$
-p_{3}(r)\;\propto\;
-\frac{Z^{\tfrac32}}{r^{\tfrac32}}
-\;\left[\,1 + \bigl(a\,r\,Z^{\tfrac13}\bigr)^{0.772}\right]^{-5.829}\,.
-$$
+      p_{3}(r)\;\propto\;
+      \frac{Z^{\tfrac32}}{r^{\tfrac32}}
+      \;\left[\,1 + \bigl(a\,r\,Z^{\tfrac13}\bigr)^{0.772}\right]^{-5.829}\,.
+    $$
 
 All code and data used to reproduce these results live in this repository.
 
