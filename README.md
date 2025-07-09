@@ -13,7 +13,7 @@ In this project we apply these tools to the **second-period atoms** (He through 
 - Onicescu’s information measure $O$  
 - Fisher information $I$  
 - The order parameter $\Omega$  
-- Symmetrized Kullback–Leibler and Jensen–Shannon divergences against two reference models:  
+- Symmetrized *Kullback–Leibler* and *Jensen–Shannon* divergences against two reference models:  
   1. A hydrogenic 1s density fixed by the first ionization potential  
   2. A Thomas–Fermi statistical density  
 
@@ -22,5 +22,5 @@ All code and data used to reproduce these results live in this repository.
 ## Requirements
 
 - Python 3.8+  
-- numpy, pandas, scipy, matplotlib, joblib  
+- numpy, pandas, scipy, matplotlib  
 - Jupyter Notebook  
