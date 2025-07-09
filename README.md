@@ -6,7 +6,7 @@
 
 Information-theoretic measures provide a quantitative window into the complexity and uncertainty of quantum systems. In particular, the **Shannon entropy** captures how delocalized an electron’s wavefunction is, beyond what simple moments or variances can convey.  Complementary metrics and divergence measures (**Kullback–Leibler, Jensen–Shannon**), probe additional aspects of an atomic electron density and its deviation from idealized reference models.
 
-In this project we apply these tools to the **second-period atoms** (He through Ne).  We start from Hartree–Fock (RHF) radial wavefunctions expanded in Slater-type orbitals, and compute a suite of information-theoretic quantities from the resulting electron densities.
+In this project we apply these tools to the **second-period atoms** (He through Ne).  We start from Hartree–Fock (RHF) radial wavefunctions expanded in Slater-type orbitals, and compute a suite of information quantities from the resulting electron densities.
 
 - Shannon entropies $S_r$ and $S_k$  
 - The variance-dependent entropy bound $S_{\max}$  
@@ -14,13 +14,8 @@ In this project we apply these tools to the **second-period atoms** (He through 
 - Fisher information $I$  
 - The order parameter $\Omega$  
 - Symmetrized *Kullback–Leibler* and *Jensen–Shannon* divergences against two reference models:  
-  1. A hydrogenic 1s density fixed by the first ionization potential  
-  2. A Thomas–Fermi statistical density
-     $$
-      p_{3}(r)\;\propto\;
-      \frac{Z^{\tfrac32}}{r^{\tfrac32}}
-      \;\left[\,1 + \bigl(a\,r\,Z^{\tfrac13}\bigr)^{0.772}\right]^{-5.829}\,.
-    $$
+  1. A *hydrogenic 1s* density fixed by the first ionization potential  
+  2. A *Thomas–Fermi* statistical density
 
 All code and data used to reproduce these results live in this repository.
 
