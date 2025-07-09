@@ -8,12 +8,12 @@ Information-theoretic measures provide a quantitative window into the complexity
 
 In this project we apply these tools to the **second-period atoms** (He through Ne).  We start from high-quality, spin-restricted Hartree–Fock (RHF) radial wavefunctions expanded in Slater-type orbitals, compute both coordinate-space and momentum-space densities, and then evaluate:
 
-- Shannon entropies \(S_r\) and \(S_k\)  
-- The variance-dependent entropy bound \(S_{\max}\)  
-- Onicescu’s information measure \(O\)  
-- Fisher information \(I\)  
-- The order parameter \(\Omega\)  
-- Symmetrized Kullback–Leibler and Jensen–Shannon divergences against two reference models:
+- Shannon entropies `$S_r$` and `$S_k$`  
+- The variance-dependent entropy bound `$S_{\max}$`  
+- Onicescu’s information measure `$O$`  
+- Fisher information `$I$`  
+- The order parameter `$\Omega$`  
+- Symmetrized Kullback–Leibler and Jensen–Shannon divergences against two reference models:  
   1. A hydrogenic 1s density fixed by the first ionization potential  
   2. A Thomas–Fermi statistical density  
 
